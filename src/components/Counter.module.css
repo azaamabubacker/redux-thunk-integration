@@ -1,3 +1,23 @@
+.counterContainer {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
 .count {
-    color: #4CC9FE
+    color: #4CC9FE;
+    font-size: 4rem;
+    
+}
+
+.counterButtons {
+    padding: 6px;
+}
+
+.error {
+    font-size: 1rem;
+    color: tomato
 }

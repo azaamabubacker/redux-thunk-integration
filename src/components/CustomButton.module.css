@@ -1,0 +1,19 @@
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin: 12px;
+}
+
+.button:hover:not(:disabled) {
+  transform: scale(1.05); /* Slight scaling on hover */
+}
+
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
